@@ -6,7 +6,12 @@ function Article (options) {
    new Object according to this new definition. options is
    a placeholder for the object that will ultimately be
    passed in. Use all of the properties in blogArticles
-   to populate the new Article data that we'll use.  */
+   to populate the new Article data that we'll use.  */      
+   this.category = options.category
+   this.author = options.author
+   this.authorUrl = options.authorUrl
+   this.publishedOn = options.publishedOn;
+   this.body = options.body;
    this.title = options.title;
 };
 
